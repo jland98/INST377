@@ -18,13 +18,16 @@ h1 {
     line-height: 0.6;
     text-align: center;
 }
+h2 {
+    text-align: center;
+}
 h3 {
     line-height: 0.1;
     text-align: center;
 }
 h4 {
     margin: 0;
-    padding: 2;
+    padding: 3;
 }
 .music {
     background-color:antiquewhite;
@@ -43,4 +46,15 @@ td, th {
     border: 0.5px solid black;
     text-align: left;
     padding: 3px;
+}
+img {
+    float: right;
+}
+form {
+    float: right;
+    background: antiquewhite;
+    border: 2px;
+    border-color:black;
+    border-style:solid;
+    padding: 5px;
 }

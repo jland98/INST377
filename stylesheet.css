@@ -18,6 +18,14 @@ h1 {
     line-height: 0.6;
     text-align: center;
 }
+h3 {
+    line-height: 0.1;
+    text-align: center;
+}
+h4 {
+    margin: 0;
+    padding: 2;
+}
 .music {
     background-color:antiquewhite;
     color:black;
@@ -28,19 +36,11 @@ h1 {
     border-color:black;
     border-style:solid;
 }
+.links {
+    text-align: center;
+}
 td, th {
     border: 0.5px solid black;
     text-align: left;
     padding: 3px;
-}
-h4 {
-    margin: 0;
-    padding: 2;
-}
-h3 {
-    line-height: 0.1;
-    text-align: center;
-}
-.links {
-    text-align: center;
 }

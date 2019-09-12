@@ -26,7 +26,8 @@ h1::after {
     position: fixed;
     left: 475;
     width: 50%;
-    z-index: -1;  
+    z-index: -1;
+    border: 2px solid black;
 }
 h2 {
     text-align: center;

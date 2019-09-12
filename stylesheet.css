@@ -10,20 +10,37 @@ body {
 }
 h1 {
     margin-block-start: 0.8em;
-    margin-block-end: 0.8em;
     line-height: 0.6;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #fefefe;
+    width: 75%;
+    position: relative;
+    left: 100px;
+}
+h1::after {
+    background-color: antiquewhite;
+    content: '';
+    height: 5px;
+    margin-top: 9px;
+    position: fixed;
+    left: 475;
+    width: 50%;
+    z-index: -1;  
 }
 h2 {
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h3 {
     line-height: 0.1;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 h4 {
     margin: 0;
     padding: 3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .music {
     background-color:antiquewhite;

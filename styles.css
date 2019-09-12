@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+  }
 #header {
     background: darkgoldenrod;
     color: white;
@@ -50,22 +53,23 @@ h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #music {
+    display: flex;
     background-color:antiquewhite;
-    margin: 0px;
     padding: 10px;
-    width: 400px;
-    border: 3px;
-    border-color:black;
-    border-style:solid;
-    text-align: center;
+    border: 3px solid black;
+    justify-content: flex-end;
+}
+.personal {
+    display: flex;
 }
 #links {
     text-align: center;
     width: 60%;
     margin: auto;
 }
-#resume {
+#background {
     text-align: left;
+    flex: 50%;
 }
 td, th {
     border: 0.5px solid black;
@@ -88,6 +92,7 @@ form {
     border: 3px solid black;
 }
 #work h4 {
+    margin-top: 10px;
     margin-bottom: -10px;
     text-align: center;
 }

@@ -1,3 +1,9 @@
+#header {
+    background: darkgoldenrod;
+    color: white;
+    width: 60%;
+    margin: auto;
+}
 body {
     height: 100%;
     background-color:#fefefe;
@@ -55,6 +61,8 @@ h4 {
 }
 #links {
     text-align: center;
+    width: 60%;
+    margin: auto;
 }
 #resume {
     text-align: left;

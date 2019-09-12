@@ -58,6 +58,10 @@ h4 {
     padding: 10px;
     border: 3px solid black;
     justify-content: flex-end;
+    height: 300px;
+}
+#music caption {
+    font-weight: bold;
 }
 .personal {
     display: flex;
@@ -69,7 +73,11 @@ h4 {
 }
 #background {
     text-align: left;
-    flex: 50%;
+    flex: 75%;
+}
+#background img {
+    width: 75px;
+    height: 75px;
 }
 td, th {
     border: 0.5px solid black;
@@ -95,4 +103,8 @@ form {
     margin-top: 10px;
     margin-bottom: -10px;
     text-align: center;
+    text-decoration: underline;
+}
+#work a {
+    text-decoration: none;
 }

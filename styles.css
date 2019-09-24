@@ -44,8 +44,8 @@ h3 {
 
 /* (Q2-4) */
 #background img {
-  width: 75px;
-  height: 75px;
+  width: 100px;
+  height: 100px;
   float: right;
 }
 
@@ -78,8 +78,17 @@ h3 {
 /* (Q2-3) */
 .class {
   display: flex;
+  justify-content: space-around;
   background-color: antiquewhite;
   border: 3px solid black;
   padding: .5em;
   margin-top: .5em;
+}
+
+.classheading {
+  font-weight: bold;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-decoration: underline;  
+  list-style: none;
+  font-size: larger;
 }

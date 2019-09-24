@@ -1,7 +1,11 @@
+html {
+  background-color: whitesmoke;
+}
+
 /* (Q2-1) */
 header {
   background: darkgoldenrod;
-  color: whitesmoke;
+  color: white;
 }
 
 /* (Q2-2) */
@@ -15,7 +19,7 @@ header {
 }
 
 body {
-  background-color:#fefefe;
+  background-color:whitesmoke;
   font-family: Tahoma, sans-serif;
   margin: 2em;
   line-height: 1.4;
@@ -42,9 +46,6 @@ h3 {
 #background img {
   width: 75px;
   height: 75px;
-}
-
-img {
   float: right;
 }
 

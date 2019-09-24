@@ -73,3 +73,12 @@ img {
   font-style: italic;
   font-weight: bold;
 }
+
+/* (Q2-3) */
+.class {
+  display: flex;
+  background-color: antiquewhite;
+  border: 3px solid black;
+  padding: .5em;
+  margin-top: .5em;
+}

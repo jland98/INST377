@@ -92,3 +92,15 @@ h3 {
   list-style: none;
   font-size: larger;
 }
+
+.class img {
+  height: 100px;
+  margin: auto;
+  padding: 1em;
+}
+
+.divider {
+  width: 3px;
+  margin: 10px 0;
+  background: black;
+}

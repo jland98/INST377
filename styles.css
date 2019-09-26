@@ -76,31 +76,41 @@ h3 {
 }
 
 /* (Q2-3) */
-.class {
+#misc {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: antiquewhite;
   border: 3px solid black;
   padding: .5em;
   margin-top: .5em;
 }
 
-.classheading {
+#misc .column {
+  flex: 1 1 0;
+}
+
+#misc .list-header {
   font-weight: bold;
   font-family: 'Trebuchet MS', sans-serif;
+  text-align: center;
   text-decoration: underline;  
   list-style: none;
   font-size: larger;
 }
 
-.class img {
+#misc img {
+  display: block;
   height: 100px;
   margin: auto;
   padding: 1em;
 }
 
-.divider {
+#misc .divider {
   width: 3px;
   margin: 10px 0;
   background: black;
+}
+
+#misc ul {
+  margin: 1px;
 }

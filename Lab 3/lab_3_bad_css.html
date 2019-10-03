@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sample HTML Demonstration Page</title>
+  <style>
+    body {
+      margin: 0;
+    }
+
+    .wrapper {
+      width: 60%;
+      height: 100vh;
+      background: grey;
+      margin: 0 auto;
+    }
+
+    .head {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .head a {
+      padding-bottom: 5px;
+    }
+
+    .second_container {
+      background: pink;
+      width: auto;
+      text-align: center;
+      padding: 60px 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      background-color: gray;
+    }
+
+    .textbox {
+      height: 100px;
+      width: 350px;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center
+    }
+
+    .green {
+      background: red;
+      cursor: pointer;
+      margin: 10px;
+    }
+
+    .second {
+      background: lightblue;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="head" id="start">
+      <h1>Sample Header</h1>
+      <a href=#>anchor tag to nowhere</a>
+    </div>
+    <div class="second_container">
+      <div class="interior">
+        hello
+      </div>
+    </div>
+    <div class="container">
+      <div class="green textbox">
+        click me I'm great
+      </div>
+      <div class="green textbox">
+      </div>
+      <div class="second textbox">
+      <p>
+        World #2
+      </p>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>

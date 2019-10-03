@@ -13,13 +13,13 @@ header {
   width: 60%;
   margin: auto;
 }
-  
+
 #links {
   text-align: center;
 }
 
 body {
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   font-family: Tahoma, sans-serif;
   margin: 2em;
   line-height: 1.4;
@@ -27,18 +27,18 @@ body {
 
 h1 {
   text-align: center;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 h2 {
   text-align: center;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 h3 {
   margin-bottom: 1em;
   text-align: center;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   text-decoration: underline;
 }
 
@@ -52,7 +52,7 @@ h3 {
 #work {
   background-color: antiquewhite;
   border: 3px solid black;
-  padding: .5em;
+  padding: 0.5em;
 }
 
 #work h4 {
@@ -81,8 +81,8 @@ h3 {
   justify-content: space-between;
   background-color: antiquewhite;
   border: 3px solid black;
-  padding: .5em;
-  margin-top: .5em;
+  padding: 0.5em;
+  margin-top: 0.5em;
 }
 
 #misc .column {
@@ -91,9 +91,9 @@ h3 {
 
 #misc .list-header {
   font-weight: bold;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: "Trebuchet MS", sans-serif;
   text-align: center;
-  text-decoration: underline;  
+  text-decoration: underline;
   list-style: none;
   font-size: larger;
 }
